@@ -47,20 +47,3 @@ export class Phone extends Model {
   @Column
   image: string;
 }
-
-// Phone.init({
-//   id: {
-//     type: DataTypes.INTEGER,
-//     primaryKey: true,
-//   },
-// }, {
-//   sequelize,
-// });
-
-// try {
-//   await Phone.sync();
-// } catch {
-//   console.log('error');
-// }
-
-// console.log('hello');
