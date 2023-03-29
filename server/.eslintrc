@@ -1,0 +1,8 @@
+{
+  "extends": "@mate-academy/eslint-config-internal",
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
